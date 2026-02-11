@@ -82,12 +82,12 @@ elif page == "Visualization 📊":
         ## render the plot in streamlit 
         st.pyplot(fig_corr)
 
-elif page == "Automated Report 📑":
-    st.subheader("03 Automated Report")
-    if st.button("Generate Report"):
-        with st.spinner("Generating report..."):
-            profile = ProfileReport(df,title="Diabetes Database Report",explorative=True,minimal=True)
-            st_profile_report(profile)
+# elif page == "Automated Report 📑":
+#     st.subheader("03 Automated Report")
+#     if st.button("Generate Report"):
+#         with st.spinner("Generating report..."):
+#             profile = ProfileReport(df,title="Diabetes Database Report",explorative=True,minimal=True)
+#             st_profile_report(profile)
 
-        export = profile.to_html()
-        st.download_button(label="📥 Download full Report",data=export,file_name="diabetes_report.html",mime='text/html')
+#         export = profile.to_html()
+#         st.download_button(label="📥 Download full Report",data=export,file_name="diabetes_report.html",mime='text/html')
