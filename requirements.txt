@@ -4,4 +4,8 @@ matplotlib
 seaborn
 numpy
 ydata-profiling
+<<<<<<< HEAD
 streamlit-pandas-profiling
+=======
+streamlit-pandas-profiling
+>>>>>>> 56e0530 (init commit)

@@ -23,12 +23,12 @@ page = st.sidebar.selectbox("Select Page",["Introduction ğŸ“˜","Visualization ğŸ
 
 #st.video("video.mp4")
 
-st.image("diabetes-.jpg")
+st.image("house2.png")
 
 st.write("   ")
 st.write("   ")
 st.write("   ")
-df = pd.read_csv("diabetes.csv")
+df = pd.read_csv("myapp/diabetes.csv")
 
 
 ## Step 02 - Load dataset
